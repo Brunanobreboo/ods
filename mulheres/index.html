@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tulip</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!--Navbar-->
+    <nav class="navbar">
+        <h1 class="logo">TULIP</h1>
+        <ul class="nav-links">
+        <li class="active"><a href="#a">Home</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#mulheres">Histórias</a></li>
+        <li class="ctn"><a href="cadastro.html">Contate-nos</a></li>
+
+    </ul>
+
+    <img src="img/traço.png" alt="" class="menu-btn">
+    </nav>
+
+    <header id="a">
+        <div class="header-content">
+            <h2>Conheça algumas das</h2>
+            <div class="line"> </div>
+            <h1>Mulheres que inspiram o mundo</h1>
+            <a href="#saibamais" class="ctn">Saiba mais</a>
+
+            
+        </div>
+    </header>
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click', ()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+<br> <br> 
+<div class="degrade">
+
+<section class="ods">
+    <p id="saibamais">"Mulheres poderosas podem mudar o mundo, não fique parada!"</p>
+</section>
+
+
+<div class="video">
+<iframe width="760" height="415" src="https://www.youtube.com/embed/6RSc_XYezig?si=95bzgdoAmq6vC0Mg" title="YouTube video player"
+     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+     referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+<div id="sobre"></div>
+<div  class="sobre">
+
+<div class="fundo">
+ 
+    <h2 >Sobre nós</h2>
+
+    
+    <p>Somos uma organização sem fins lucrativos, que busca atingir os objetivos da ODS 5 através da divulgação de histórias de 
+        mulheres que mudaram o mundo. E empoderar cada vez mais mulheres e meninas a seguirem seus sonhos e lutarem pelos seus 
+        direitos.  A igualdade de gênero é um direito humano fundamental e a base para um mundo pacífico, próspero e sustentável. 
+        O Objetivo de Desenvolvimento Sustentável 5 (ODS 5) é crucial na Agenda 2030, refletindo que a igualdade de gênero impulsiona o 
+        desenvolvimento sustentável. Porém, apesar de avanços significativos que tem sido feito, especialmente em saúde, educação e 
+        trabalho, é preciso intensificar esforços para combater discriminações e violências de gênero e promover o empoderamento de
+         mulheres e meninas. A participação delas na política, economia e em várias decisões é essencial para o desenvolvimento 
+         sustentável, que não será atingido sem eliminar as barreiras que limitam o potencial de metade da população.</p>
+</div>
+</div> 
+
+<div class="titulo"><h2>
+        Conheça as mulheres destaques da semana
+    </h2></div>
+<section class="mulheres" id="mulheres">
+    
+    
+    <a href="./dandara.html"><img src="img/dandara.png"></a>
+    <a href="./madre.html"><img src="img/madretereza.png"></a>
+    <a href="./frida.html"><img src="img/frida.png"></a>
+    <a href="./malala.html"><img src="img/malala.png"></a>
+    <a href="./marie.html"><img src="img/marie.png"></a>
+    
+    
+</section>
+</div>
+
+<footer>
+    Site desenvolvido por Bruna Arruda e Lívia Munhoz
+</footer>
+
+</body>
+</html>
